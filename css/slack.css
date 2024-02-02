@@ -1,0 +1,145 @@
+/*slack log in page*/
+#container{
+    display: flex;
+    background-color: white;
+    margin-left: 16%;
+    margin-right: 16%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+  }
+  #slack-image{
+    margin: 5px;
+  }
+  #slack-image img{
+    border-radius: 10px;
+    height: 30em;
+    width: 35em;
+  }
+  
+  #contents{
+    background-color: white;
+  }
+  #logo-slack{
+    display: block;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 35px;
+    margin-top: 50px;
+  }
+  #logo-slack img{
+    width: 40px;
+  }
+  #login-with-g00gle{
+    width: 15px;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+  }
+  button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+    #intro button{
+      width: 18em;
+      text-align: center;
+      justify-content: center;
+      background-color: white;
+      padding:3px;
+      border-radius: 5px;
+    }
+    .business{
+        font-size: 11q1xs   px;  
+    }
+  
+  #forms button{
+    width: 18em;
+    text-align: center;
+    justify-content: center;
+    background-color:  #7F265B;
+    padding:5px;
+    border-radius: 5px;
+  }
+  input{
+    width: 16em;
+  }
+#Remember {
+    width: 10px;
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+    background-color: #7F265B;
+}
+#last{
+    display: inline;
+    justify-content: space-between;
+    width: 10px;
+    font-size: 13px;
+    text-align: center;
+    justify-content: center; 
+}
+#Rememberlabel{
+    margin-right: 30px;
+}
+a{
+    color: #7F265B;
+    text-decoration: none; 
+}
+
+@media screen and (max-device-width: 800px){
+  #container{
+    display: block;
+    background-color: white;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #slack-image img{
+    display: none;
+  }
+  #contents{
+    background-color: white;
+    padding: 10px;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  input{
+    width: auto;
+  }
+  #forms button{
+    width: 10em;
+    text-align: center;
+    justify-content: center;
+    background-color:  #7F265B;
+    margin-left:3em;
+    border-radius: 5px;
+  }
+  #intro button{
+    width: 10em;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    margin-left:3em;
+    border-radius: 5px;
+  }
+  #login-with-g00gle{
+    width: 15px;
+    display: inline;
+  }
+  button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+}
