@@ -1,4 +1,7 @@
 /*slack log in page*/
+body{
+  background-color:bisque;
+}
 #container{
     display: flex;
     background-color: white;
